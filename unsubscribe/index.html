@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>You’ve Unsubscribed</title>
+  <meta charset="UTF-8">
+  <title>Unsubscribe Confirmation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: sans-serif;
-      background: #f9f9f9;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      margin: 0;
     }
     .card {
-      background: white;
-      padding: 40px;
+      background-color: #fff;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 40px;
+      max-width: 400px;
       text-align: center;
+    }
+    .card h1 {
+      color: #1877f2;
+      margin-bottom: 20px;
+    }
+    .card p {
+      font-size: 16px;
+      color: #333;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #1877f2;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <div class="card">
-    <h1>🔕 You’ve been unsubscribed.</h1>
-    <p>You will no longer receive emails from us.</p>
+    <h1>You've been unsubscribed</h1>
+    <p>You will no longer receive marketing emails from us.</p>
+    <a href="">Go back to homepage</a>
   </div>
 </body>
 </html>
